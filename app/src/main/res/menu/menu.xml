@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="@string/estimator"
+        app:showAsAction="always"/>
+
+
+
+    <item
+        android:title=""
+        app:showAsAction="always"/>
+
+    <item
+        android:icon="@drawable/ic_baseline_history_toggle_off_24"
+        android:title="Chart"
+        android:id="@+id/itemRecord"
+        app:showAsAction="always"/>
+    <item
+        android:icon="@drawable/chart"
+        android:title="Chart"
+        android:id="@+id/itemChart"
+        app:showAsAction="always"/>
+    <item
+        android:icon="@drawable/info"
+        android:title="Chart"
+        android:id="@+id/itemAbout"
+        app:showAsAction="always"/>
+
+
+
+
+</menu>
+

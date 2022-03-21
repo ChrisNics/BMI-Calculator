@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6182f7"
+    tools:context=".MainActivity3">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnMale"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/male"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:textColor="#ecf0fe"
+        app:layout_constraintEnd_toStartOf="@+id/btnFemale"
+        app:layout_constraintHorizontal_bias="0.228"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnFemale"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/female"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:textColor="#ecf0fe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageHeight"
+        android:layout_width="351dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMale"
+        app:srcCompat="@drawable/background_height" />
+
+    <TextView
+        android:id="@+id/tvHeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:text="Height  (cm)"
+        android:textColor="#000000"
+        android:textSize="22.47dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageHeight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageHeight"
+        app:layout_constraintVertical_bias="0.149" />
+
+    <EditText
+        android:id="@+id/editHeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:ems="10"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        android:textSize="20.47dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageHeight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvHeight" />
+
+    <ImageView
+        android:id="@+id/imageWeight"
+        android:layout_width="147dp"
+        android:layout_height="128dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="24dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.077"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageHeight"
+        app:srcCompat="@drawable/background_weight" />
+
+
+    <TextView
+        android:id="@+id/tvWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:text="Weight (kg)"
+        android:textColor="#000000"
+        android:textSize="17.47dp"
+        app:layout_constraintBottom_toTopOf="@+id/editWeight"
+        app:layout_constraintEnd_toEndOf="@+id/imageWeight"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="@+id/imageWeight"
+        app:layout_constraintTop_toTopOf="@+id/imageWeight"
+        app:layout_constraintVertical_bias="0.375" />
+
+    <EditText
+        android:id="@+id/editWeight"
+        android:layout_width="121dp"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/black"
+        android:ems="10"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        android:textSize="20.47dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageWeight"
+        app:layout_constraintEnd_toEndOf="@+id/imageWeight"
+        app:layout_constraintHorizontal_bias="0.423"
+        app:layout_constraintStart_toStartOf="@+id/imageWeight"
+        app:layout_constraintTop_toTopOf="@+id/imageWeight"
+        app:layout_constraintVertical_bias="0.7" />
+
+    <ImageView
+        android:id="@+id/imageAge"
+        android:layout_width="147dp"
+        android:layout_height="128dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="24dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.906"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageHeight"
+        app:srcCompat="@drawable/background_weight" />
+
+    <TextView
+        android:id="@+id/tvAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:text="Age (years)"
+        android:textColor="#000000"
+        android:textSize="17.47dp"
+        app:layout_constraintBottom_toTopOf="@+id/editAge"
+        app:layout_constraintEnd_toEndOf="@+id/imageAge"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="@+id/imageAge"
+        app:layout_constraintTop_toTopOf="@+id/imageAge"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <EditText
+        android:id="@+id/editAge"
+        android:layout_width="121dp"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/black"
+        android:ems="10"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:inputType="number"
+        android:textSize="20.47dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageAge"
+        app:layout_constraintEnd_toEndOf="@+id/imageAge"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="@+id/imageAge"
+        app:layout_constraintTop_toTopOf="@+id/imageAge"
+        app:layout_constraintVertical_bias="0.7" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/btnCalculate"
+        android:layout_width="353dp"
+        android:layout_height="58dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#fcf7f7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageAge"
+        app:layout_constraintVertical_bias="0.053">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tvBMI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="102dp"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="@font/roboto_slab_bold"
+                android:text="CALCULATE BMI"
+                android:textColor="#6182f7"
+                android:textSize="17.47dp" />
+
+            <ProgressBar
+                android:id="@+id/pbCalculate"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="53dp"
+                android:layout_marginBottom="13dp"
+                android:indeterminateTint="#97abf3" />
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tvDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:fontFamily="@font/roboto_slab"
+        android:onClick="deleteAccount"
+        android:text="@string/hyperlinkDelete"
+        android:textColorLink="@android:color/white"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.92"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCalculate"
+        app:layout_constraintVertical_bias="0.128" />
+
+    <TextView
+        android:id="@+id/tvUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lilita_one"
+        android:text="Username"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tvDelete"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCalculate"
+        app:layout_constraintVertical_bias="0.142" />
+
+
+    <TextView
+        android:id="@+id/tvLogout"
+        android:onClick="logOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_slab"
+        android:text="@string/hyperlinkLogout"
+        android:textColorLink="@android:color/white"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tvDelete"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvUsername"
+        app:layout_constraintVertical_bias="0.162" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

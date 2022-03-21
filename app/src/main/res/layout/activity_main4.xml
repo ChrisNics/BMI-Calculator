@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background_ourteam"
+    android:fillViewport="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity4">
+
+
+        <ImageView
+            android:id="@+id/imageUCC"
+            android:layout_width="110dp"
+            android:layout_height="81dp"
+            app:layout_constraintBottom_toTopOf="@+id/tvGerald1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageCSD"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.144"
+            app:srcCompat="@drawable/ucc" />
+
+        <ImageView
+            android:id="@+id/imageCSD"
+            android:layout_width="110dp"
+            android:layout_height="81dp"
+            android:layout_marginStart="32dp"
+            app:layout_constraintBottom_toTopOf="@+id/tvGerald1"
+            app:layout_constraintStart_toEndOf="@+id/tvTeam"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.144"
+            app:srcCompat="@drawable/csd" />
+
+        <TextView
+            android:id="@+id/tvTeam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/roboto_slab"
+            android:text="Developers:"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageGerald"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="60dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvTeam"
+            app:srcCompat="@drawable/tuton" />
+
+
+        <TextView
+            android:id="@+id/tvGerald"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Gerald Mantequilla"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.314"
+            app:layout_constraintStart_toEndOf="@+id/imageGerald"
+            app:layout_constraintTop_toBottomOf="@+id/tvGerald1" />
+
+        <TextView
+            android:id="@+id/tvGerald1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="192dp"
+            android:text="Team Leader"
+            android:textColor="#7233d1"
+            android:textSize="12.47dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.384"
+            app:layout_constraintStart_toEndOf="@+id/imageGerald"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageChristian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageGerald"
+            app:srcCompat="@drawable/selfie" />
+
+
+        <TextView
+            android:id="@+id/tvChristian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Christian Nicolas"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.283"
+            app:layout_constraintStart_toEndOf="@+id/imageChristian"
+            app:layout_constraintTop_toBottomOf="@+id/tvChristian1" />
+
+        <TextView
+            android:id="@+id/tvChristian1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="92dp"
+            android:text="Developer"
+            android:textColor="#7233d1"
+            android:textSize="12.47dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.358"
+            app:layout_constraintStart_toEndOf="@+id/imageChristian"
+            app:layout_constraintTop_toBottomOf="@+id/tvGerald" />
+
+        <ImageView
+            android:id="@+id/imageIan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageChristian"
+            app:srcCompat="@drawable/ian" />
+
+
+        <TextView
+            android:id="@+id/tvIan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ian Villanueva"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.322"
+            app:layout_constraintStart_toEndOf="@+id/imageIan"
+            app:layout_constraintTop_toBottomOf="@+id/tvIan1" />
+
+        <TextView
+            android:id="@+id/tvIan1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="Developer"
+            android:textColor="#7233d1"
+            android:textSize="12.47dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.358"
+            app:layout_constraintStart_toEndOf="@+id/imageIan"
+            app:layout_constraintTop_toBottomOf="@+id/tvChristian" />
+
+        <ImageView
+            android:id="@+id/imageNigel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageIan"
+            app:srcCompat="@drawable/nigel" />
+
+
+        <TextView
+            android:id="@+id/tvNigel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nigel Petargue"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.335"
+            app:layout_constraintStart_toEndOf="@+id/imageNigel"
+            app:layout_constraintTop_toBottomOf="@+id/tvNigel1" />
+
+        <TextView
+            android:id="@+id/tvNigel1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="96dp"
+            android:text="Developer"
+            android:textColor="#7233d1"
+            android:textSize="12.47dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.358"
+            app:layout_constraintStart_toEndOf="@+id/imageNigel"
+            app:layout_constraintTop_toBottomOf="@+id/tvIan" />
+
+        <ImageView
+            android:id="@+id/imageMike"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageNigel"
+            app:srcCompat="@drawable/mike" />
+
+
+        <TextView
+            android:id="@+id/tvMike"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mike Nunez"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.341"
+            app:layout_constraintStart_toEndOf="@+id/imageMike"
+            app:layout_constraintTop_toBottomOf="@+id/tvMike1" />
+
+        <TextView
+            android:id="@+id/tvMike1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="96dp"
+            android:text="Designer"
+            android:textColor="#7233d1"
+            android:textSize="12.47dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.348"
+            app:layout_constraintStart_toEndOf="@+id/imageMike"
+            app:layout_constraintTop_toBottomOf="@+id/tvNigel" />
+
+        <ImageView
+            android:id="@+id/imageCarlo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageMike"
+            app:srcCompat="@drawable/carlo" />
+
+        <TextView
+            android:id="@+id/tvCarlo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="John Carlo Mandia"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.316"
+            app:layout_constraintStart_toEndOf="@+id/imageCarlo"
+            app:layout_constraintTop_toBottomOf="@+id/tvCarlo1" />
+
+        <TextView
+            android:id="@+id/tvCarlo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="CEO/FOUNDER"
+            android:textColor="#7233d1"
+            android:textSize="12.47dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.348"
+            app:layout_constraintStart_toEndOf="@+id/imageCarlo"
+            app:layout_constraintTop_toBottomOf="@+id/tvMike" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>

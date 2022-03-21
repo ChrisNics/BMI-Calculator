@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="hyperlinkSignup"><a href="#">Sign-up</a></string>
+    <string name="hyperlinkSignin"><a href="#">Sign-in</a></string>
+    <string name="hyperlinkDelete"><a href="#">Delete Account</a></string>
+    <string name="hyperlinkLogout"><a href="#">Log Out</a></string>
+    <string name="underweight">You seems to be underweight, just a little more and you will be in normal weight!</string>
+    <string name="normal">Congratulations! Maintain what you have and be fit all the times!</string>
+    <string name="overweight">You gain some weight for such a long time, How about decrease some unhealthy foods? </string>
+    <string name="obese">Cheer Up! It\'s not to be worried about, let go and burn some fats</string>
+    <string name="severeobese">Oh no! We can still do something about it, hurry up and let\'s make a change</string>
+    <string name="bmi">Body Mass Index (BMI) is a person\'s weight in kilograms divided by the square of height in meters. A high BMI can be an indicator of high body fatness. BMI can be used to screen for weight categories that may lead to health problems but it is not diagnostic of the body fatness or health of an individual.</string>
+    <string name="chart_underweight"> &#60;18.5 = <b>UNDERWEIGHT</b></string>
+    <string name="chart_normal"> 18.5 - 24.9 = <b>NORMAL</b></string>
+    <string name="chart_overweight"> 25 - 29.9 = <b>OVERWEIGHT</b></string>
+    <string name="chart_obese">30 - 39.9 =<b> OBESE</b></string>
+    <string name="chart_severe">&#62;40 = <b>SEVERE OBESITY</b></string>
+    <string name="estimator"><font fgcolor='#f4f2f2'>BMI ESTIMATOR</font></string>
+
+</resources>

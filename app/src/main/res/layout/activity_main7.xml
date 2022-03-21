@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ecf0fe"
+    tools:context=".MainActivity7">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="85dp"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:text="PREVIOUS BMI"
+        android:textColor="#000000"
+        android:textSize="30.51dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="102dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/background_weight"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="170dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="34dp"
+        android:background="@drawable/background_weight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:text="BMI"
+        android:textColor="#6182f7"
+        android:textSize="30.51dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:text="Date"
+        android:textColor="#6182f7"
+        android:textSize="30.51dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+    <ImageView
+        android:id="@+id/imageDate1"
+        android:layout_width="170dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="34dp"
+        android:background="@drawable/background_weight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageBMI1"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <ImageView
+        android:id="@+id/imageBMI1"
+        android:layout_width="102dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/background_weight"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/tvBMI1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lilita_one"
+        android:textColor="#000000"
+        android:textSize="30.51dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageBMI1"
+        app:layout_constraintEnd_toEndOf="@+id/imageBMI1"
+        app:layout_constraintStart_toStartOf="@+id/imageBMI1"
+        app:layout_constraintTop_toTopOf="@+id/imageBMI1" />
+
+    <TextView
+        android:id="@+id/tvDate1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lilita_one"
+        android:textColor="#000000"
+        android:textSize="29.51dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageDate1"
+        app:layout_constraintEnd_toEndOf="@+id/imageDate1"
+        app:layout_constraintStart_toStartOf="@+id/imageDate1"
+        app:layout_constraintTop_toTopOf="@+id/imageDate1" />
+
+    <ImageView
+        android:id="@+id/imageBMI2"
+        android:layout_width="102dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/background_weight"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageBMI1" />
+
+    <ImageView
+        android:id="@+id/imageDate2"
+        android:layout_width="170dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="34dp"
+        android:background="@drawable/background_weight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageBMI2"
+        app:layout_constraintTop_toBottomOf="@+id/imageDate1" />
+
+    <TextView
+        android:id="@+id/tvBMI2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lilita_one"
+        android:textColor="#000000"
+        android:textSize="30.51dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageBMI2"
+        app:layout_constraintEnd_toEndOf="@+id/imageBMI2"
+        app:layout_constraintStart_toStartOf="@+id/imageBMI2"
+        app:layout_constraintTop_toTopOf="@+id/imageBMI2" />
+
+    <TextView
+        android:id="@+id/tvDate2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lilita_one"
+        android:textColor="#000000"
+        android:textSize="29.51dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageDate2"
+        app:layout_constraintEnd_toEndOf="@+id/imageDate2"
+        app:layout_constraintStart_toStartOf="@+id/imageDate2"
+        app:layout_constraintTop_toTopOf="@+id/imageDate2" />
+
+    <ImageView
+        android:id="@+id/imageBMI3"
+        android:layout_width="102dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/background_weight"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageBMI2" />
+
+    <ImageView
+        android:id="@+id/imageDate3"
+        android:layout_width="170dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="34dp"
+        android:background="@drawable/background_weight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageBMI3"
+        app:layout_constraintTop_toBottomOf="@+id/imageDate2" />
+
+    <TextView
+        android:id="@+id/tvBMI3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lilita_one"
+        android:textColor="#000000"
+        android:textSize="30.51dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageBMI3"
+        app:layout_constraintEnd_toEndOf="@+id/imageBMI3"
+        app:layout_constraintStart_toStartOf="@+id/imageBMI3"
+        app:layout_constraintTop_toTopOf="@+id/imageBMI3" />
+
+    <TextView
+        android:id="@+id/tvDate3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lilita_one"
+        android:textColor="#000000"
+        android:textSize="29.51dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageDate3"
+        app:layout_constraintEnd_toEndOf="@+id/imageDate3"
+        app:layout_constraintStart_toStartOf="@+id/imageDate3"
+        app:layout_constraintTop_toTopOf="@+id/imageDate3" />
+
+
+    <ImageView
+        android:id="@+id/imageBMI4"
+        android:layout_width="102dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/background_weight"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageBMI3" />
+
+    <ImageView
+        android:id="@+id/imageDate4"
+        android:layout_width="170dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="34dp"
+        android:background="@drawable/background_weight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageBMI4"
+        app:layout_constraintTop_toBottomOf="@+id/imageDate3" />
+
+    <TextView
+        android:id="@+id/tvBMI4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lilita_one"
+        android:textColor="#000000"
+        android:textSize="30.51dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageBMI4"
+        app:layout_constraintEnd_toEndOf="@+id/imageBMI4"
+        app:layout_constraintStart_toStartOf="@+id/imageBMI4"
+        app:layout_constraintTop_toTopOf="@+id/imageBMI4" />
+
+    <TextView
+        android:id="@+id/tvDate4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lilita_one"
+        android:textColor="#000000"
+        android:textSize="29.51dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageDate4"
+        app:layout_constraintEnd_toEndOf="@+id/imageDate4"
+        app:layout_constraintStart_toStartOf="@+id/imageDate4"
+        app:layout_constraintTop_toTopOf="@+id/imageDate4" />
+
+    <ImageView
+        android:id="@+id/imageBMI5"
+        android:layout_width="102dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/background_weight"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageBMI4" />
+
+    <ImageView
+        android:id="@+id/imageDate5"
+        android:layout_width="170dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="34dp"
+        android:background="@drawable/background_weight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageBMI5"
+        app:layout_constraintTop_toBottomOf="@+id/imageDate4" />
+
+    <TextView
+        android:id="@+id/tvBMI5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lilita_one"
+        android:textColor="#000000"
+        android:textSize="30.51dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageBMI5"
+        app:layout_constraintEnd_toEndOf="@+id/imageBMI5"
+        app:layout_constraintStart_toStartOf="@+id/imageBMI5"
+        app:layout_constraintTop_toTopOf="@+id/imageBMI5" />
+
+    <TextView
+        android:id="@+id/tvDate5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lilita_one"
+        android:textColor="#000000"
+        android:textSize="29.51dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageDate5"
+        app:layout_constraintEnd_toEndOf="@+id/imageDate5"
+        app:layout_constraintStart_toStartOf="@+id/imageDate5"
+        app:layout_constraintTop_toTopOf="@+id/imageDate5" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnDelete"
+        android:layout_width="275dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="34dp"
+        android:background="@drawable/login"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:text="DELETE RECORD"
+        android:textColor="#ecf0fe"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageDate5"
+        app:layout_constraintVertical_bias="0.367" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
